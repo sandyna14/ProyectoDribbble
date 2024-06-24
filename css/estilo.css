@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    min-height: 80vh; /* Para que el footer esté al fondo si hay poco contenido */
+}
+
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    max-height: 40px;
+}
+
+.footer-links,
+.footer-social {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 10px;
+}
+
+.footer-bottom-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-bottom-links a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-bottom-links a:hover {
+    text-decoration: underline;
+}
